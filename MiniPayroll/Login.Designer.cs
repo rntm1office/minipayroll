@@ -74,7 +74,7 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(220, 29);
             this.txtPassword.TabIndex = 3;
-            this.txtPassword.Text = "admin123";
+            this.txtPassword.Text = "admin27";
             // 
             // linkLabel1
             // 
@@ -86,6 +86,7 @@
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Change Password";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // btnLogin
             // 
